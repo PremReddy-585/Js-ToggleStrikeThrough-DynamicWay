@@ -19,3 +19,8 @@ checkboxInputEl = function(){
 checkBoxWithLabelContainerEl.appendChild(checkboxInputEl);
 
 let checkBoxWithLabelEl = document.createElement("label");
+checkboxLabelEl.classList.add("checkbox-label");
+checkboxLabelEl.setAttribute("for", checkboxId); 
+checkboxLabelEl.id = labelId; 
+checkboxLabelEl.textContent = "I am a label";
+checkBoxWithLabelContainerEl.appendChild(checkboxLabelEl); 
